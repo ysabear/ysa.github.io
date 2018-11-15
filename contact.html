@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--
+      Magazee Template
+      http://www.templatemo.com/tm-514-magazee
+      -->
+
+
+                                <!-- Templatemo style -->
+
+        <script>
+          var renderPage = true;
+
+          if(navigator.userAgent.indexOf('MSIE')!==-1
+            || navigator.appVersion.indexOf('Trident/') > 0){
+              /* Microsoft Internet Explorer detected in. */
+              alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+              renderPage = false;
+          }
+        </script>
+            <title> contact </title>
+
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+              <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->
+              <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Poppins" rel="stylesheet">
+              <link rel="stylesheet" href="css/bootstrap.min.css">                                        <!-- https://getbootstrap.com/ -->
+              <link rel="stylesheet" href="css/templatemo-style.css">
+      </head>
+        <body>
+
+          <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://www.behance.net/ysa_" target="_blank">Portfolio
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+            </a>
+              </div>
+              <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+
+
+           <div class="container">
+
+            <!-- 1st section -->
+            <section class="row tm-section">
+             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+              <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
+                <h1 class="tm-text-color-white tm-site-name">ABOUT</h1>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <div class="tm-flex-center p-5">
+              <img src="img/ym.gif" alt="Image" class="img-fluid">
+              </div>
+            </div>
+          </section>
+
+          <!-- 2nd section -->
+          <section class="row tm-section tm-col-md-reverse">
+           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="tm-flex-center p-5">
+              <div class="tm-md-flex-center">
+
+                <p class="mb-4">A washed up shoobie born & raised in Florida.
+
+          Brand ambassador, innovator, & content creator.
+
+          I study Graphic Design & Web Development at F.I.R.S.T. Institute.
+
+          I’m a sports enthusiast but mainly for just women’s soccer & skateboarding.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+            <div class="tm-flex-center p-5 tm-bg-color-primary">
+              <div class="tm-max-w-400 tm-flex-center tm-flex-col">
+                <img src="img/image-04.jpg" alt="Image" class="rounded-circle mb-4">
+                <p class="tm-text-color-white small tm-font-thin mb-0">Ysabel Mireles</p>
+              </div>
+            </div>
+          </div>
+          </section>
+
+
+
+
+          <!-- 6th Section -->
+          <section class="row">
+            <div class="col-lg-12 tm-form-header pl-5 pr-5">
+              <h2 class="tm-container-inner tm-text-color-white">Contact</h2>
+            </div>
+            <div class="col-lg-12 pl-2 pl-sm-3 pl-md-5 pr-2 pr-sm-3 pr-md-5">
+              <form action="index.html" method="post" class="row tm-container-inner tm-contact-form">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <div class="form-group">
+                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Full Name"  required/>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"  required/>
+                  </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                  <div class="form-group">
+                    <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Your Message" required></textarea>
+                  </div>
+                </div>
+                <div class="col-xs-12 mt-4 tm-center">
+                  <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+              </form>
+            </div>
+
+          </section>
+
+
+          <!-- load JS -->
+          <script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->
+          <script>
+
+            /* DOM is ready
+            ------------------------------------------------*/
+            $(function(){
+
+              if(renderPage) {
+                $('body').addClass('loaded');
+              }
+
+              $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+            });
+
+          </script>
+
+
+
+
+             <div class="footer">
+                <br>
+                <center><p class="p1">Copyright &#169; 2018 ysa_design</p></center>
+             </div>
+
+            </body>
+
+</html>

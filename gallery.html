@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title> gallery </title>
+            <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Give+You+Glory|Megrim|Poppins|Quicksand|Shadows+Into+Light+Two" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type=text/css href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+        <body>
+
+          <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://www.behance.net/ysa_" target="_blank">Portfolio
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+            </a>
+                    </div>
+
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+</div>
+<div class="parallax-3"></div>
+<div class="parallax-2"></div>
+
+<div class="parallax-4"></div>
+<div class="parallax-5"></div>
+<div class="parallax-7"></div>
+<div class="parallax-8"></div>
+<div class="parallax-6"></div>
+<div class="parallax-9"></div>
+<div class="parallax-1"></div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+  x.className += " responsive";
+} else {
+  x.className = "topnav";
+}
+}
+</script>
+
+          <div class="footer">
+            <br>
+            <center><p class="p4">Copyright &#169; 2018 ysa_design</p></center>
+         </div>
+
+
+
+
+
+        </body>
+
+</html>
